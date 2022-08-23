@@ -106,7 +106,7 @@ class Vector2D:
         return abs(self) < abs(other_vector)
 
     def __add__(self, other_vector):
-        """Return the additon vector of the self and the other vector.
+        """Return the addition vector of the self and the other vector.
 
         Parameters
         ----------
@@ -116,7 +116,7 @@ class Vector2D:
         Returns
         -------
         Vector2D
-            The additon vector of the self and the other vector
+            The addition vector of the self and the other vector
         """
         if not isinstance(other_vector, Vector2D):
             raise TypeError('You must pass in a Vector2D instance!')

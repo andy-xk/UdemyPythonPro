@@ -85,13 +85,13 @@ class VectorND:
         return abs(self) < abs(other_vector)
 
     def __add__(self, other_vector: VectorND) -> VectorND:
-        """Returns the additon vector of the self and the other vector.
+        """Returns the addition vector of the self and the other vector.
 
         Args:
             other_vector: Other vector (rhs).
 
         Returns:
-            The additon vector of the self and the other vector.
+            The addition vector of the self and the other vector.
         """
         if not isinstance(other_vector, VectorND):
             raise TypeError('You must pass in a VectorND instance!')
